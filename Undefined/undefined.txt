@@ -1,0 +1,12 @@
+~Undefined
+
+# let a = 3;
+# variable a is set Undefined even when the line (let a = 3;) is not executed.
+# Undefined is taking a memory space with variable "a"
+# a placeholder value untill the variable is assigned a value.
+
+# Undefined is not equal to empty
+
+# javascript is a losely typed language meaning, it doesnt attach a variable to specific data-type, if a="one" can be a=12
+
+# losely typed also means weakly typed 

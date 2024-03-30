@@ -1,0 +1,3 @@
+~Closure
+
+# A function bind along with its lexical environment

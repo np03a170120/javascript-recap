@@ -1,0 +1,17 @@
+~Block scope & shadowing
+
+# { } this is a block also known as compound statement. Combines mutiple javascript statement into a group
+
+# {} group statements together to execute mutiple statements where javascript expects a single statement 
+
+# {} variable inside block cannot be accessed outside of the block.
+
+# shadowing means replacing the value of variable. 
+
+# shadowing is possible in the block of function as well.
+
+# let a = 20 {var a = 30}, illegal shadowing throws syntax error
+
+# var is function scope
+
+# block scope follows lexical scope

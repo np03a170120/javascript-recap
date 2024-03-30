@@ -1,0 +1,19 @@
+~Scope
+
+# where you can access a specific variable or a function in the code
+
+# global scope & local scope. Only one global scope throughout a javascript document.
+
+# lexical
+    function a(){
+        function b(){
+
+        }
+    }
+    b() is lexically inside a() and a() is lexically inside global scope.
+    b() has lexical environment pointing to a().
+    lexcal environment of a() points to null (global execution context)
+
+# lexical environment is created when execution context is created.
+
+# scope chain is the chain of lexical environment of parent references. 

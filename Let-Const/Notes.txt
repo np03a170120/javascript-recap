@@ -1,0 +1,21 @@
+# let & const
+
+# let & const declaration are hoisted
+
+# temporal deadzone: time between when the variable was hoisted with let & const untill a value is assigned. Throws reference error in temporal deadzone.
+
+# variable defined with let & const is not attached to window object.
+
+# let x; throws no error, const x throws error. const has to be both initialized and declared. (const x = 10)
+
+# syntax error 
+    let x = 10
+    let x = 20
+
+# reference error: javascript engine trying to access a specific variable which is not accessible
+    clg(a);
+    let a=100;
+
+# recommended to use const whenever possible if not let (let has temporal deadzone). not to use var.
+
+# initialization and declaration on the top of the code to avoid temporal deadzone.

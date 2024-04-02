@@ -12,7 +12,7 @@
     }
     b() is lexically inside a() and a() is lexically inside global scope.
     b() has lexical environment pointing to a().
-    lexcal environment of a() points to null (global execution context)
+    lexical environment of a() points to null (global execution context)
 
 # lexical environment is created when execution context is created.
 

@@ -4,5 +4,5 @@ function a() {
     console.log(x);
   }
 }
-var x = 10;
+const x = 10;
 a(); //10

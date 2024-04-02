@@ -1,0 +1,5 @@
+~setTimeout()
+
+# javascript stores setTImeout function in different memory space. And proceeds to next immediate line of code.
+
+# var in setTimeout points to the same memory space in every loop causing the unexpected output, let in other hand has the block scope which points to the different variable 'i' in every execution of loop.
